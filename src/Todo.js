@@ -9,7 +9,7 @@ export class Todo extends React.Component {
     render() {
         const { task} = this.props;
         return (  
-            <h2>{this.props.text} - {this.props.priority} - {this.props.dueDate}   </h2> 
+            <p>{this.props.text} / {this.props.priority} / {this.props.dueDate}   </p> 
         );
     }
 
